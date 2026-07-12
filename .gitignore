@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Environment Variables
+.env
+.env.local
+
+# Build folders
+dist/
+build/
+
+# Vite
+.vite/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
+
+# Misc
+*.local
