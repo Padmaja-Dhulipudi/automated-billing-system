@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 // Pages
 import Login from "./pages/Login";
@@ -11,22 +11,20 @@ import NotFound from "./pages/NotFound";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        {/* Authentication */}
-        <Route path="/" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+    <Routes>
+      {/* Authentication */}
+      <Route path="/" element={<Login />} />
+      <Route path="/register" element={<Register />} />
 
-        {/* Main Pages */}
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/customers" element={<Customers />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/invoices" element={<Invoices />} />
+      {/* Main Pages */}
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/customers" element={<Customers />} />
+      <Route path="/products" element={<Products />} />
+      <Route path="/invoices" element={<Invoices />} />
 
-        {/* 404 Page */}
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </BrowserRouter>
+      {/* 404 Page */}
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 }
 
