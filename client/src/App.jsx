@@ -22,7 +22,7 @@ function App() {
       <Route path="/products" element={<Products />} />
       <Route path="/invoices" element={<Invoices />} />
 
-      {/* 404 Page */}
+      {/* 404 */}
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
