@@ -25,7 +25,7 @@ function App() {
             <Layout />
           </ProtectedRoute>
         }
-      >
+      />
 
       {/* Main Pages */}
       <Route path="/dashboard" element={<Dashboard />} />
