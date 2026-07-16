@@ -1,7 +1,6 @@
 function Customers() {
   return (
     <>
-
       <div className="d-flex justify-content-between align-items-center mb-4">
         <h2>Customers</h2>
 
@@ -11,7 +10,6 @@ function Customers() {
       </div>
 
       <table className="table table-bordered table-hover">
-
         <thead className="table-dark">
           <tr>
             <th>Name</th>
@@ -28,10 +26,8 @@ function Customers() {
             </td>
           </tr>
         </tbody>
-
       </table>
-
-    </div>
+    </>
   );
 }
 
